@@ -1,7 +1,5 @@
   #' m2c2R
-  #' @name score_color_shapes
   #' @export
-  #' @import tidyverse
   score_color_shapes <- function(data) {
     
     # check if data.frame or tibble

@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name summary_orca
 #' @export
-#' @import tidyverse
 summary_orca <- function(data, group_var, var_prefix = "orca", experimental = F) {
   
   # check if data.frame or tibble

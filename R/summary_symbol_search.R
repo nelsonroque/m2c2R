@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name summary_symbol_search
 #' @export
-#' @import tidyverse
 summary_symbol_search <- function(data, group_var, var_prefix = "symbol_search", experimental = F, lure_label = "LURE", normal_label = "NORMAL") {
   
   # check if data.frame or tibble

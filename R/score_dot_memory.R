@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name score_dot_memory
 #' @export
-#' @import tidyverse
 score_dot_memory <- function(data, square_size=5, n_dots=3, grid_convert=F) {
   
   convert_dotmemory_grid_1d_2d <- function(v, grid_size=square_size) {

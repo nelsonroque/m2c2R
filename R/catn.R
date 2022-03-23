@@ -1,5 +1,4 @@
 #' m2c2R
-#' @name catn
 #' @export
 catn <- function(x, n=1) {
   cat(x)

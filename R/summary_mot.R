@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name summary_mot
 #' @export
-#' @import tidyverse
 summary_mot <- function(data, group_var, var_prefix = "multi_obj_tracking", experimental = F, lure_label = "LURE", normal_label = "NORMAL") {
   
   # check if data.frame or tibble

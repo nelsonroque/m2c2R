@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name summary_dot_memory_interference
 #' @export
-#' @import tidyverse
 summary_dot_memory_interference <- function(data, group_var, var_prefix = "dot_memory", experimental = F, total_time_exp = NA) {
   
   # check if data.frame or tibble

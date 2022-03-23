@@ -1,4 +1,4 @@
-# RM2C2
+# m2c2R
 
 #### Data processing scripts for the Mobile Monitoring of Cognitive Change Research Platform.
 ---
@@ -8,20 +8,15 @@
 ### 1. Installation
 
 ```{r}
-devtools::install_github("nelsonroque/RM2C2_dev", force=T)
+devtools::install_github("nelsonroque/m2c2R", force=T)
 ```
 
 ### 2. Load the installed pacakge.
 ```{r}
-library(RM2C2dev)
+library(m2c2R)
 ```
 
 ### 3. To list all available functions, run the following command
-`lsf.str("package:RM2C2dev")`
+`lsf.str("package:m2c2R")`
 
 ---
-
-# Roadmap
-
-- Exit status and exit screen counts per user, for determining app issues
-- Compliance report summary function

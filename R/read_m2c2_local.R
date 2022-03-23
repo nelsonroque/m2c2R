@@ -1,14 +1,5 @@
 #' m2c2R
-#' @name read_m2c2_local
 #' @export
-#' @param filepath class: string
-#' @keywords m2c2, cognition
-#' @import tidyverse
-#' @import foreign
-#' @import haven
-#' @import readr
-#' @examples
-#' read_m2c2_local ("C:/filepath.csv")
 read_m2c2_local <- function(filepath,na=na) {
   if(get_file_ext(filepath) == "csv"){
     df <- readr::read_csv(filepath)

@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name score_color_dots
 #' @export
-#' @import tidyverse
 score_color_dots <- function(data, threshold=75) {
   
   # check if data.frame or tibble

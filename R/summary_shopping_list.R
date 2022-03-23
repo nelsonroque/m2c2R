@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name summary_shopping_list
 #' @export
-#' @import tidyverse
 summary_shopping_list <- function(data, group_var, var_prefix = "shopping_list", experimental = F, lure_label = "LURE", normal_label = "NORMAL") {
   
   # check if data.frame or tibble

@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name summary_gonogo_fade
 #' @export
-#' @import tidyverse
 summary_gonogo_fade <- function(data, group_var, var_prefix = "gonogofade", experimental = F) {
   
   # check if data.frame or tibble

@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name score_orca
 #' @export
-#' @import tidyverse
 score_orca <- function(data) {
   
   # check if data.frame or tibble

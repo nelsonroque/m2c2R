@@ -1,6 +1,4 @@
 #' m2c2R
-
-#' @name score_dot_memory_interference
 #' @export
 score_dot_memory_interference <- function(df) {
   

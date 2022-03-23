@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name score_mot
 #' @export
-#' @import tidyverse
 score_mot <- function(data) {
   
   # check if data.frame or tibble

@@ -1,14 +1,5 @@
 #' m2c2R
-
-#' @name SDT_adj
 #' @export
-#' @param df class: dataframe
-#' @param adj class: numeric; SDT adjustment
-#' @keywords m2c2, cognition
-#' @import tidyverse
-#' @examples
-#' SDT_adj(df, adj=0.01)
-
 SDT_adj <- function(df, adj=0.01) {
   up_adj = 1 - adj
   down_adj = 0 + adj

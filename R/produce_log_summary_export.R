@@ -1,8 +1,5 @@
 #' m2c2R
-#' @name produce_log_summary_export
 #' @export
-#' @import tidyverse
-#' @import anytime
 produce_log_summary_export <- function(filepath, part_ids=NA, search_events=NA, debug=F) {
   
   if(is.na(part_ids)) {

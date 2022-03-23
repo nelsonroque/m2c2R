@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name is_data_tag_valid
 #' @export
-#' @import tidyverse
 is_data_tag_valid <- function(data, tag_name = "", tag_value = T) {
   
   # does the attribute exist?

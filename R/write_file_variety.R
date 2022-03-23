@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name write_file_variety
 #' @export
-#' @import tidyverse
 write_file_variety <- function(data, filename) {
   if(filename != "" | !is.na(filename) | !is.null(filename)) {
     write_csv(data, filename)

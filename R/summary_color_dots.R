@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name summary_color_dots
 #' @export
-#' @import tidyverse
 summary_color_dots <- function(data, group_var, var_prefix = "color_dots", experimental = F) {
   
   # check if data.frame or tibble

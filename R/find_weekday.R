@@ -1,5 +1,4 @@
 #' m2c2R
-#' @name find_weekday
 #' @export
 find_weekday <- function(wday="sun", days = 1, weekstart = "sun") {
   if(days > 7) {

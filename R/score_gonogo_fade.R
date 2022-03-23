@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name score_gonogo_fade
 #' @export
-#' @import tidyverse
 score_gonogo_fade <- function(data) {
   
   # check if data.frame or tibble

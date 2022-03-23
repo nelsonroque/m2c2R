@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name score_shopping_list
 #' @export
-#' @import tidyverse
 score_shopping_list <- function(data) {
   
   # check if data.frame or tibble

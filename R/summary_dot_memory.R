@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name summary_dot_memory
 #' @export
-#' @import tidyverse
 summary_dot_memory <- function(data, group_var, var_prefix = "dot_memory", experimental = F) {
   
   # check if data.frame or tibble

@@ -1,7 +1,5 @@
 #' m2c2R
-#' @name score_symbol_search
 #' @export
-#' @import tidyverse
 score_symbol_search <- function(data) {
   
   # check if data.frame or tibble
