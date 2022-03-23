@@ -33,7 +33,7 @@ append_metadate_cols <- function(data, time_var = "timestamp", time_format = "%m
              dt_datetimestamp_round_10min = lubridate::round_date(dt_datetime, "10 minutes"),
              dt_datetimestamp_round_15min = lubridate::round_date(dt_datetime, "15 minutes"),
              dt_datetimestamp_round_30min = lubridate::round_date(dt_datetime, "30 minutes")) %>%
-      #' append rounded timestamps if requested
+      # append rounded timestamps if requested
       mutate(dt_timestamponly_round_5min = format(anytime::anytime(dt_datetimestamp_round_5min), "%H:%M:%S"),
              dt_timestamponly_round_10min = format(anytime::anytime(dt_datetimestamp_round_10min), "%H:%M:%S"),
              dt_timestamponly_round_15min = format(anytime::anytime(dt_datetimestamp_round_15min), "%H:%M:%S"),
