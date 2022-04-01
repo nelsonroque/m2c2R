@@ -6,6 +6,20 @@
 \usage{
 append_process_cols(data, algo = "md5")
 }
+\arguments{
+\item{data}{Name of a tibble or data frame}
+}
+\value{
+Returns input data frame with m2c2_processing_hash and m2c2_processing_timestamp added.
+}
 \description{
 m2c2R
+}
+\details{
+This function creates MD5 checksum for data file and add as variable 
+(m2c2_processing_hash) and adds a data processing timestamp to denote when
+the data were processed.
+}
+\author{
+Nelson Roque, \email{Nelson.Roque@ucf.edu}
 }

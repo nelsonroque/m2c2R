@@ -6,6 +6,22 @@
 \usage{
 append_colname_prefix(data, group_var, var_prefix)
 }
+\arguments{
+\item{data}{Name of tibble or data frame}
+
+\item{group_var}{Name of grouping variable, in quotes (for example: "participant_id")}
+
+\item{var_prefix}{Prefix to be added to the name of each variable (for example: "study1_")}
+}
+\value{
+Returns input data frame with modified variable names (for example: "study1_participant_id."
+}
 \description{
 m2c2R
+}
+\details{
+This function adds a prefix to variable names in a specified tibble or data frame.
+}
+\author{
+Nelson Roque, \email{Nelson.Roque@ucf.edu}
 }

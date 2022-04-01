@@ -6,6 +6,24 @@
 \usage{
 is_data_tag_valid(data, tag_name = "", tag_value = T)
 }
+\arguments{
+\item{data}{Name of a tibble or data frame}
+
+\item{tag_name}{Name of data tag}
+
+\item{tag_value}{Tag value (TRUE/FALSE)}
+}
+\value{
+Returns TRUE/FALSE.
+}
 \description{
 m2c2R
+}
+\details{
+This function checks whether a specified data tag is present in the supplied
+data frame or tibble. If present, the function checks whether the tag has the specified
+tag value.
+}
+\author{
+Nelson Roque, \email{Nelson.Roque@ucf.edu}
 }

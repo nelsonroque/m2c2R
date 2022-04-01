@@ -6,6 +6,21 @@
 \usage{
 read_m2c2_local(filepath, na = na)
 }
+\arguments{
+\item{filepath}{Path to a data file}
+
+\item{na}{If reading in a .txt file, note the value used for missing data.}
+}
+\value{
+Returns data frame created from provided data file.
+}
 \description{
 m2c2R
+}
+\details{
+This function reads in M2C2 data files from a local file path and saves 
+to a data frame in R.
+}
+\author{
+Nelson Roque, \email{Nelson.Roque@ucf.edu}
 }

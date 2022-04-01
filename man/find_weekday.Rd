@@ -6,6 +6,23 @@
 \usage{
 find_weekday(wday = "sun", days = 1, weekstart = "sun")
 }
+\arguments{
+\item{wday}{Abbreviation for starting day ("sun", "mon", "tues", "wed", "thurs", "fri", "sat")}
+
+\item{days}{Number of days to increment}
+
+\item{weekstart}{Day considered as the start of the week (either Sunday or Monday)}
+}
+\value{
+Returns the name of the weekday that is n days after the wday provided.
+}
 \description{
 m2c2R
+}
+\details{
+This function takes a day of the week and a number of days to increment as input
+and returns the name of the weekday that is n days after the wday provided.
+}
+\author{
+Nelson Roque, \email{Nelson.Roque@ucf.edu}
 }

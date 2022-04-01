@@ -6,6 +6,20 @@
 \usage{
 create_n_batches(.data, batches = 10)
 }
+\arguments{
+\item{batches}{Number of batches desired}
+
+\item{data}{Name of a tibble or data frame}
+}
+\value{
+Returns list of data, split into specified number ofbatches
+}
 \description{
 m2c2R
+}
+\details{
+This function splits an input data frame into a specified number of batches for processing.
+}
+\author{
+Nelson Roque, \email{Nelson.Roque@ucf.edu}
 }

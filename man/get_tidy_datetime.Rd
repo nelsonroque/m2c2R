@@ -6,6 +6,19 @@
 \usage{
 get_tidy_datetime(delim = "_")
 }
+\arguments{
+\item{delim}{Delimiter to use in separating parts of the datetime object.}
+}
+\value{
+Returns formatted datetime.
+}
 \description{
 m2c2R
+}
+\details{
+This function pulls and formats the Sys.time() from the current R session, using
+the specified delimiter.
+}
+\author{
+Nelson Roque, \email{Nelson.Roque@ucf.edu}
 }

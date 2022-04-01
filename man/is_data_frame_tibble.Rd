@@ -6,6 +6,18 @@
 \usage{
 is_data_frame_tibble(data)
 }
+\arguments{
+\item{data}{Name of an object in R}
+}
+\value{
+Returns TRUE/FALSE.
+}
 \description{
 m2c2R
+}
+\details{
+This function checks whether a given object is a data frame or tibble.
+}
+\author{
+Nelson Roque, \email{Nelson.Roque@ucf.edu}
 }

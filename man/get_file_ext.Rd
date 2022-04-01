@@ -6,6 +6,19 @@
 \usage{
 get_file_ext(filepath)
 }
+\arguments{
+\item{filepath}{Path to a file}
+}
+\value{
+Returns file extension
+}
 \description{
 m2c2R
+}
+\details{
+This function takes a file path as input and returns the file extension
+(csv, txt, xls, etc.)
+}
+\author{
+Nelson Roque, \email{Nelson.Roque@ucf.edu}
 }

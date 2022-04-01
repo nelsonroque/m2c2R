@@ -6,6 +6,21 @@
 \usage{
 is_col_present(data, colname)
 }
+\arguments{
+\item{data}{Name of a tibble or data frame}
+
+\item{colname}{Name of a column to check for, in quotes ("participant_id")}
+}
+\value{
+Returns TRUE/FALSE.
+}
 \description{
 m2c2R
+}
+\details{
+This function checks whether a given column (colname) is in the 
+specified data frame or tibble.
+}
+\author{
+Nelson Roque, \email{Nelson.Roque@ucf.edu}
 }

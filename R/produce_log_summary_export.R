@@ -1,5 +1,17 @@
 #' m2c2R
+#' @name produce_log_summary_export
+#' 
+#' @author Nelson Roque, \email{Nelson.Roque@@ucf.edu}
+#' 
 #' @export
+#' @param filepath Path to a file
+#' @param part_ids
+#' @param search_events
+#' @param debug
+#' @details 
+#' @return Returns input data frame with m2c2_processing_hash and m2c2_processing_timestamp added.
+#' @import tidyverse
+#' @import ruf 
 produce_log_summary_export <- function(filepath, part_ids=NA, search_events=NA, debug=F) {
   
   if(is.na(part_ids)) {

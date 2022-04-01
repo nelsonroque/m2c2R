@@ -1,5 +1,15 @@
 #' m2c2R
+#' @name find_weekday
+#' 
+#' @author Nelson Roque, \email{Nelson.Roque@@ucf.edu}
+#' 
 #' @export
+#' @param wday Abbreviation for starting day ("sun", "mon", "tues", "wed", "thurs", "fri", "sat")
+#' @param days Number of days to increment
+#' @param weekstart Day considered as the start of the week (either Sunday or Monday)
+#' @details This function takes a day of the week and a number of days to increment as input
+#' and returns the name of the weekday that is n days after the wday provided. 
+#' @return Returns the name of the weekday that is n days after the wday provided.
 find_weekday <- function(wday="sun", days = 1, weekstart = "sun") {
   if(days > 7) {
     stop("Error. Support not available for jittering more than 7 days")

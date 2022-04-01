@@ -6,6 +6,18 @@
 \usage{
 distance(x1, x2, y1, y2)
 }
+\arguments{
+\item{x1, x1, y1, y2}{coordinates on an X/Y grid corresponding to the position of two dots.}
+}
+\value{
+Returns numeric value for the distance between two dots.
+}
 \description{
 m2c2R
+}
+\details{
+This function calculates the distance between two dots on an X/Y grid.
+}
+\author{
+Nelson Roque, \email{Nelson.Roque@ucf.edu}
 }

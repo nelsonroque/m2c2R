@@ -11,6 +11,15 @@ produce_log_summary_export(
   debug = F
 )
 }
+\arguments{
+\item{filepath}{Path to a file}
+}
+\value{
+Returns input data frame with m2c2_processing_hash and m2c2_processing_timestamp added.
+}
 \description{
 m2c2R
+}
+\author{
+Nelson Roque, \email{Nelson.Roque@ucf.edu}
 }

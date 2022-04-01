@@ -6,6 +6,16 @@
 \usage{
 inspect_data(data)
 }
+\arguments{
+\item{data}{Name of a tibble or data frame}
+}
 \description{
 m2c2R
+}
+\details{
+This function "inspects" the data by pulling the number of rows and 
+columns, as well as the variable names.
+}
+\author{
+Nelson Roque, \email{Nelson.Roque@ucf.edu}
 }
