@@ -14,7 +14,7 @@ For more information about [Roxygen, visit this link.](https://cran.r-project.or
 
 ### 1. Documentation of functions
 
-At mininmum, add the following roxygen2 tags to each file in the `R` folder
+At minimum, add the following roxygen2 tags to each file in the `R` folder
 
   - @export
   - @name
