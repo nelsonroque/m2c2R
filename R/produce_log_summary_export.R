@@ -11,7 +11,6 @@
 #' @details 
 #' @return Returns input data frame with m2c2_processing_hash and m2c2_processing_timestamp added.
 #' @import tidyverse
-#' @import ruf 
 produce_log_summary_export <- function(filepath, part_ids=NA, search_events=NA, debug=F) {
   
   if(is.na(part_ids)) {
@@ -27,7 +26,7 @@ produce_log_summary_export <- function(filepath, part_ids=NA, search_events=NA, 
   
   # tidy column names for later use ----
   log_table_cc <- log_table %>% 
-    ruf::make_tidy_colnames() %>%  # custom function from my other package
+    m2c2R::make_tidy_colnames() %>%  # custom function from my other package
     select(-x18) %>%
     mutate(date_dts = anytime::anytime(local_time),
            date_d = anytime::anydate(local_time))
@@ -35,7 +34,7 @@ produce_log_summary_export <- function(filepath, part_ids=NA, search_events=NA, 
   # review unique elements - all possible headers
   poss_hd1 <- unique(log_table_cc$header1)
   poss_hd2 <- unique(log_table_cc$header2)
-  n_uniq_parts <- ruf::lenu(log_table_cc$participant_id) # get number of participants in log file
+  n_uniq_parts <- m2c2R::lenu(log_table_cc$participant_id) # get number of participants in log file
   
   if(debug) {
     print(poss_hd1)
