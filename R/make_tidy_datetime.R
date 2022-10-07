@@ -1,5 +1,5 @@
 #' m2c2R
-#' @name get_tidy_datetime
+#' @name make_tidy_datetime
 #' 
 #' @author Nelson Roque, \email{Nelson.Roque@@ucf.edu}
 #' 
@@ -8,7 +8,7 @@
 #' the specified delimiter. 
 #' @return Returns formatted datetime.
 #' @export
-get_tidy_datetime <- function(delim = "_") {
+make_tidy_datetime <- function(delim = "_") {
   cur_dts <- Sys.time()
   dt <- format(cur_dts, paste("%Y", "%m", "%d", "T", "%H", "%M", "%S", sep=delim))
   return(dt)

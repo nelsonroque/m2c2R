@@ -1,6 +1,6 @@
 Package: m2c2R
 Title: Scoring and Summarizing of Cognitive task data from the Mobile Monitoring of Cognitive Change Project (M2C2).
-Version: 0.0.3.2
+Version: 0.0.3.3
 Description: Processes and scores Cognitive task data from the Mobile Monitoring of Cognitive Change Project (M2C2).
 Depends: R (>= 3.5.0), tidyverse, digest, lubridate, anytime, pracma
 License: MIT
