@@ -10,7 +10,7 @@
 qcsv <- function(., ts=T, tz="UTC") {
   dname <- deparse(substitute(.))
   if(ts){
-    ts_v <- m2c2R::make_tidy_datetime(timezone = tz)
+    ts_v <- m2c2R::make_tidy_datetime()
     write_csv(., paste0(dname, "_", ts_v,".csv"))
   } else {
     write_csv(., paste0(dname, ".csv"))
